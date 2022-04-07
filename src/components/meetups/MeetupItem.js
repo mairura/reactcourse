@@ -1,9 +1,9 @@
 import Card from "../ui/Card";
 import classes from "./MeetupItem.module.css";
+import React from "react";
 
 function MeetupItem(props) {
-  return;
-  <div>
+  return (
     <li className={classes.item}>
       <Card>
         <div className={classes.image}>
@@ -19,7 +19,7 @@ function MeetupItem(props) {
         </div>
       </Card>
     </li>
-  </div>;
+  );
 }
 
 export default MeetupItem;
